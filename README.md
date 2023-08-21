@@ -4,8 +4,10 @@ using Pyqt6 UI PortScanner that Service detection logic using double service det
 portdetail 파일은 응답 값을 확인 해 볼 수 있는 개별 작동하는 코드 입니다.
 port_scanner_7.2.py 파일을 동작 시키면, 사용할 수 있는 PyQt6를 사용하여 UI를 구성하여였기에 Window에서만 작동하는 포트 스캐너 입니다.(맥북에서도 작동은 되는 것으로 확인하였습니다.)
 
-기능 사용 방법 : 
+
 ![Untitled](https://github.com/LikeyUserspray/PortScanner_Window/assets/98539049/fff7d520-8b4a-46d1-b639-0b61add98519)
+
+기능 사용 방법 : 
 1. Scan type에서 TCP Scan(TCP FULL Connect), Stealth Scan 기능 중 선택한다.
 2. Host 부분에 ip주속 혹은 domain주소를 입력한다. (도메인 주소는 https://www.은 제외하고 입력한다.) 예시: naver.com
 3. PortRange 부분에 원하는 포트 대역을 입력한다. (1-65535 처럼 입력 양식에 맞추어 사용한다.)
